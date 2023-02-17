@@ -1,13 +1,12 @@
-# Cuál es la diferencia entre un condicional simple y un condicional compuesto?
+# Escriba un bloque cualquiera de código en Python en donde
+# utilice 2 condicionales (if) anidados.
 
-print("el condicional simple es el que ejecuta una accion cuando se cumple una condicion")
-ojos = "azules"
-if(ojos == "azules"):
-    print("Que bonitos ojos tienes")
+num1, num2, num3 = 1, 2, 3
 
-print("el condicional compuesto es el que ejecuta una accion uando se cumple una condicion y otra accion diferente si no se cumple la condicion")
-num = 3
-if(num%2 == 0):
-    print("el numero es par")
+if(num1 < num2):
+    if(num2 < num3):
+        print(f"el numero mayor es {num3}")
+    else: 
+        print(f"{num2} es mayor que {num3}")
 else:
-    print("el numero es inpar")
+    print(f"{num1} es mayor que {num2}")
