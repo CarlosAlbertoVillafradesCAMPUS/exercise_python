@@ -1,4 +1,11 @@
-#Que son las expresiones regulares en Python?
+# Enumere 5 tipos de datos en Python y suministre un valor de
+# ejemplo de cada uno.
 
-print(f"Son esencialmente en un lenguaje de programación diminuto y altamente especializado incrustado dentro de Python y disponible a través del módulo re. Usando este pequeño lenguaje, especificas las reglas para el conjunto de cadenas de caracteres posibles que deseas hacer coincidir; este conjunto puede contener frases en inglés, o direcciones de correo electrónico, o comandos TeX, o cualquier cosa que desee.")
-print("Metacarácteres = . ^ $ * + ? { } [ ] \ | ( )")
+str = "Carlos Villafrades"
+int = 21
+vacio = None
+booleano = True
+tupla = ("soy", "camper")
+lista = ["javascript", "python", "java", "php"]
+diccionario = {} 
+
