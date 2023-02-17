@@ -1,11 +1,5 @@
-# Enumere 5 tipos de datos en Python y suministre un valor de
-# ejemplo de cada uno.
+# En sus propias palabras, qué son las funciones
+# preconstruidas y proporcione 2 ejemplos.
 
-str = "Carlos Villafrades"
-int = 21
-vacio = None
-booleano = True
-tupla = ("soy", "camper")
-lista = ["javascript", "python", "java", "php"]
-diccionario = {} 
+print("Son bloques de codigo reutilizable, contruidos con el fin de de realizar una actividad especifica")
 
