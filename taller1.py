@@ -1,11 +1,11 @@
-# 1. Qué operadores utiliza Python en los siguientes casos:
+# En la jerarquía de operadores, cuáles son los que más
+# prioridad tienen cuando el intérprete de Python los evalúa?
 
-# A. División Modular
-# B. Exponenciación
-# C. División que retorne entero.
+num1, num2, num3 = 10, 5 ,3
 
-num1, num2 = 8, 9
- 
-print(f"B. Exponenciación {num1} ** {num2} = {num1 ** num2}")
-print(f"A. División Modular {num1} % {num2} = {num1 % num2}")
-print(f"C. División que retorne entero. {num1} // {num2} = {num1 // num2}")
+print(f"""
+    \n() Paréntesis
+    \n** Exponente
+    \n-x Negación
+    \n* / // Multiplicación, División, Cociente, Módulo
+    \n+ - Suma, Resta""")
