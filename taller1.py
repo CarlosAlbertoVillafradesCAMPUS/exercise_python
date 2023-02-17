@@ -1,12 +1,16 @@
-# Escriba un bloque cualquiera de código en Python en donde
-# utilice 2 condicionales (if) anidados.
+# Construya un algoritmo en Python, que permita ingresar la
+# información de un empleado e imprima el nombre, los
+# apellidos y la antigüedad. Los datos que se deben solicitar
+# son los siguientes:
+# *Nombre * Teléfono *Año de ingreso a la empresa
+# *Apellidos *Edad.
 
-num1, num2, num3 = 1, 2, 3
+nombre = input("Digite su nombre ")
+apellido = input("Digite su apellido ")
+telefono = int(input("Digite su numero de telefono "))
+edad = int(input("Digite su edad "))
+año_ingreso = int(input("Digite el año en que ingreso a la empresa "))
+año_actual = 2023
 
-if(num1 < num2):
-    if(num2 < num3):
-        print(f"el numero mayor es {num3}")
-    else: 
-        print(f"{num2} es mayor que {num3}")
-else:
-    print(f"{num1} es mayor que {num2}")
+print(f"{nombre.upper()} {apellido.upper()} tienes una antiguedad en la empresa de {año_ingreso - año_actual} años")
+
